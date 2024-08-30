@@ -1,5 +1,5 @@
 {
-  "is_adshow": false,
+  "is_adshow": true,
   "is_admob": true,
   "is_update": false,
   "is_qureka_show": false,
@@ -9,7 +9,7 @@
   "is_check_utm": true,
   "is_inter_after_qureka": false,
   "apilink": "",
-  "app_name": "CB0037 - Loanguru - Emi Caluclator",
+  "app_name": "CB0068 - Cash Loan - Emi Caluclator",
   "app_link": "https://play.google.com/store/apps/details?id=com.manageemi.extracalculator",
   "update_app_url": "https://moongamez.com/start",
   "am_appOpen": "ca-app-pub-3940256099942544/9257395921",
