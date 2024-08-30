@@ -5,7 +5,8 @@
     "thumb": "",
     "title": "Samsung Memory",
     "discription": "Although most paragraphs should have a topic sentence, there are a few situations when a paragraph might not need a topic sentence.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "link",
@@ -13,7 +14,8 @@
     "thumb": "",
     "title": "Clay Banks",
     "discription": "That’s why it’s often best to put the topic sentence at the very beginning of the paragraph. In some cases, however, it’s more effective to place another sentence before the topic sentence—for example, a sentence linking the current paragraph to the previous one, or one providing background information.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":2
   },
   {
     "type": "video",
@@ -21,7 +23,8 @@
     "thumb": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     "title": "Big Buck Bunny",
     "discription": "Readers generally look to the first few sentences in a paragraph to determine the subject and perspective of the paragraph. ",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "img",
@@ -29,7 +32,8 @@
     "thumb": "",
     "title": "Mat",
     "discription": "A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement; it unifies the content of a paragraph and directs the order of the sentences; and it advises the reader of the subject to be discussed and how the paragraph will discuss it.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "img",
@@ -37,7 +41,8 @@
     "thumb": "",
     "title": "Toa Heftiba",
     "discription": "A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":2
   },
   {
     "type": "link",
@@ -45,7 +50,8 @@
     "thumb": "",
     "title": "Bernhard",
     "discription": "Regardless of the kind of information they contain, all paragraphs share certain characteristics. One of the most important of these is a topic sentence.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "video",
@@ -53,7 +59,8 @@
     "thumb": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     "title": "Florian Hahn",
     "discription": "It might describe a place, character, or process; narrate a series of events; compare or contrast two or more things; classify items into categories; or describe causes and effects.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "link",
@@ -61,7 +68,8 @@
     "thumb": "",
     "title": "Kate Trysh",
     "discription": "Paragraphs can contain many different kinds of information. A paragraph could contain a series of brief examples or a single long illustration of a general point.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "video",
@@ -69,7 +77,8 @@
     "thumb": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     "title": "elisadventure",
     "discription": "",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "img",
@@ -77,7 +86,8 @@
     "thumb": "",
     "title": "Tara-mae Miller",
     "discription": "This is because paragraphs show a reader where the subdivisions of an essay begin and end, and thus help the reader see the organization of the essay and grasp its main points.",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":2
   },
   {
     "type": "link",
@@ -85,7 +95,8 @@
     "thumb": "",
     "title": "Yuliya Matuzava",
     "discription": "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   },
   {
     "type": "video",
@@ -93,6 +104,7 @@
     "thumb": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     "title": "Liana S",
     "discription": "philadelphia, high rise, architecture, pa, usa, building, aerial view, street wallpaper, street city, philly, high street, city streets, urban, urban i phone wallpaper, city street, road, HD City Wallpapers, street background, urban jungle, adventure, Free pictures",
-    "created_at": "2024-08-30 12:28:38.697832"
+    "created_at": "2024-08-30 12:28:38.697832",
+    "adType":1
   }
 ]
