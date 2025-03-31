@@ -1,0 +1,2292 @@
+{
+    "success": {
+        "menu": {
+            "template": "MenuWidget",
+            "widget": {
+                "@type": "type.googleapis.com/widget.MenuWidget",
+                "data": {
+                    "items": [
+                        {
+                            "default_icon": "icon-home-line",
+                            "active_icon": "icon-home-fill",
+                            "title": "Home",
+                            "is_active": true,
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "LandingPage",
+                                            "page_url": "/v2/pages/home",
+                                            "page_slug": "/in/home"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-search-line",
+                            "active_icon": "icon-search-fill",
+                            "title": "Search",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "ExplorePage",
+                                            "page_url": "/v2/pages/explore",
+                                            "page_slug": "/in/explore"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-tv-line",
+                            "active_icon": "icon-tv-fill",
+                            "title": "TV",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "LandingPage",
+                                            "page_url": "/v2/pages/shows",
+                                            "page_slug": "/in/shows"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-movies-line",
+                            "active_icon": "icon-movies-fill",
+                            "title": "Movies",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "LandingPage",
+                                            "page_url": "/v2/pages/movies",
+                                            "page_slug": "/in/movies"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-sports-line",
+                            "active_icon": "icon-sports-fill",
+                            "title": "Sports",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "LandingPage",
+                                            "page_url": "/v2/pages/sports",
+                                            "page_slug": "/in/sports"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-creators-line",
+                            "active_icon": "icon-creators-fill",
+                            "title": "Sparks",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "LandingPage",
+                                            "page_url": "/v2/pages/creators",
+                                            "page_slug": "/in/creators"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-category-line",
+                            "active_icon": "icon-category-fill",
+                            "title": "Categories",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "OverlayDraggableSheetPage",
+                                            "page_url": "/v2/pages/categories",
+                                            "page_slug": "/in/categories"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "default_icon": "icon-user-line",
+                            "active_icon": "icon-user-fill",
+                            "image_url": "https://img1.hotstarext.com/image/upload/w_200,h_200,c_fill/v2/feature/profile/38_jv.png",
+                            "title": "My Space",
+                            "actions": {
+                                "on_click": [
+                                    {
+                                        "page_navigation": {
+                                            "page_type": "MyPage",
+                                            "page_url": "/v2/pages/mypage",
+                                            "page_slug": "/in/mypage"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "refresh_url": "/v2/pages/104/spaces/61/widgets/67?wti_name=Menu",
+                    "invalidate_on": [
+                        "TOKEN_CHANGED",
+                        "PROFILE_UPDATED"
+                    ]
+                }
+            },
+            "id": "67",
+            "defer_id": "67",
+            "unique_identifier": "70"
+        },
+        "page": {
+            "id": "tray_details",
+            "template": "TrayDetailsPage",
+            "spaces": {
+                "content": {
+                    "id": "content",
+                    "template": "ContentSpace",
+                    "widget_wrappers": [
+                        {
+                            "template": "GridWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.GridWidget",
+                                "widget_commons": {
+                                    "version": "1",
+                                    "name": "GridWidget"
+                                },
+                                "data": {
+                                    "column_number": 5,
+                                    "items": [
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEapAIKCjE1NDAwNDAyMDkSFVJSIHZzIENTSzogSGlnaGxpZ2h0cxoVUlIgdnMgQ1NLOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MJHMrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYXJqA21hbGoDdGVsagNiZW5qA2thbmoDaGFyagNwYW5qA2JpaGoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAEqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4ATINCglXYXRjaCBOb3cQAQ=="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "14m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/792/1743357670792-h",
+                                                        "alt": "RR vs CSK: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "RR vs CSK: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040209&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/rr-vs-csk-highlights/1540040209/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/6843/1743357696843-i",
+                                                            "alt": "RR vs CSK: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "RR vs CSK: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/2940/1743357692940-t",
+                                                                "alt": "RR vs CSK: Highlights"
+                                                            },
+                                                            "description": "Nitish Rana (81) and Wanindu Hasaranga (4/35) did the heavy lifting as Rajasthan Royals beat Chennai Super Kings to seal their first win of TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "14m"
+                                                                },
+                                                                {
+                                                                    "value": "12 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040209&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/rr-vs-csk-highlights/1540040209/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqQCCgoxNTQwMDQwMjA5EhVSUiB2cyBDU0s6IEhpZ2hsaWdodHMaFVJSIHZzIENTSzogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDCRzKzeBToEU3RhcmoDaGluagNlbmdqA3RhbWoDbWFyagNtYWxqA3RlbGoDYmVuagNrYW5qA2hhcmoDcGFuagNiaWhqA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayABKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAFCCwoJVmlldyBNb3Jl"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040209&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/rr-vs-csk-highlights/1540040209/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "RR vs CSK: Highlights, Clip, 14 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040209"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEaqQIKCjE1NDAwNDAyMDYSFURDIHZzIFNSSDogSGlnaGxpZ2h0cxoVREMgdnMgU1JIOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MI7MrN4FOgRTdGFyagNoaW5qA2VuZ2oDbWFyagNtYWxqA3RlbGoDdGFtagNiZW5qA2thbmoDaGFyagNiaWhqA3BhbmoDc2duagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgAipICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBMg0KCVdhdGNoIE5vdxAB"
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "13m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/7564/1743340317564-h",
+                                                        "alt": "DC vs SRH: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "DC vs SRH: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040206&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/dc-vs-srh-highlights/1540040206/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/2107/1743340192107-i",
+                                                            "alt": "DC vs SRH: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "DC vs SRH: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/2525/1743340822525-t",
+                                                                "alt": "DC vs SRH: Highlights"
+                                                            },
+                                                            "description": "Delhi Capitals' sublime bowling display followed by their electric batting handed them a comfortable win over Sunrisers Hyderabad in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "13m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040206&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/dc-vs-srh-highlights/1540040206/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqkCCgoxNTQwMDQwMjA2EhVEQyB2cyBTUkg6IEhpZ2hsaWdodHMaFURDIHZzIFNSSDogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDCOzKzeBToEU3RhcmoDaGluagNlbmdqA21hcmoDbWFsagN0ZWxqA3RhbWoDYmVuagNrYW5qA2hhcmoDYmloagNwYW5qA3NnbmoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAIqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4AUILCglWaWV3IE1vcmU="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040206&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/dc-vs-srh-highlights/1540040206/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "DC vs SRH: Highlights, Clip, 13 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040206"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEapwIKCjE1NDAwNDAyMDMSFEdUIHZzIE1JOiBIaWdobGlnaHRzGhRHVCB2cyBNSTogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDCLzKzeBToEU3RhcmoDaGluagNlbmdqA3RlbGoDdGFtagNtYWxqA2JlbmoDa2FuagNtYXJqA2hhcmoDc2duagNwYW5qA2JpaGoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAMqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4ATINCglXYXRjaCBOb3cQAQ=="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "13m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/8235/1743271488235-h",
+                                                        "alt": "GT vs MI: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "GT vs MI: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040203&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/gt-vs-mi-highlights/1540040203/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/3853/1743270263853-i",
+                                                            "alt": "GT vs MI: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "GT vs MI: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/6440/1743271626440-t",
+                                                                "alt": "GT vs MI: Highlights"
+                                                            },
+                                                            "description": "Sai Sudharsan's fluent fifty followed by disciplined bowling helped Gujarat Giants claim an easy win and keep Mumbai Indians winless in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "13m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040203&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/gt-vs-mi-highlights/1540040203/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqcCCgoxNTQwMDQwMjAzEhRHVCB2cyBNSTogSGlnaGxpZ2h0cxoUR1QgdnMgTUk6IEhpZ2hsaWdodHMiFlNQT1JUX01BVENIX0hJR0hMSUdIVFMqB0NyaWNrZXQwi8ys3gU6BFN0YXJqA2hpbmoDZW5nagN0ZWxqA3RhbWoDbWFsagNiZW5qA2thbmoDbWFyagNoYXJqA3NnbmoDcGFuagNiaWhqA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayADKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAFCCwoJVmlldyBNb3Jl"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040203&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/gt-vs-mi-highlights/1540040203/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "GT vs MI: Highlights, Clip, 13 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040203"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEauAIKCjE1NDAwNDAyMDASFkNTSyB2cyBSQ0I6IEhpZ2hsaWdodHMaFkNTSyB2cyBSQ0I6IEhpZ2hsaWdodHMiFlNQT1JUX01BVENIX0hJR0hMSUdIVFMqB0NyaWNrZXQwiMys3gU6BFN0YXJqA2hpbmoDZW5nagN0YW1qA21hbGoDYmVuagNrYW5qA3RlbGoDbWFyagNoYXJqA2JpaGoDc2duagNwYW5qC2ZmX2hhbmdvdXRzagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgBCpICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBMg0KCVdhdGNoIE5vdxAB"
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "14m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/4767/1743183944767-h",
+                                                        "alt": "CSK vs RCB: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "CSK vs RCB: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040200&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/csk-vs-rcb-highlights/1540040200/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/3783/1743182423783-i",
+                                                            "alt": "CSK vs RCB: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "CSK vs RCB: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/2656/1743184162656-t",
+                                                                "alt": "CSK vs RCB: Highlights"
+                                                            },
+                                                            "description": "Royal Challengers Bengaluru ended their 17-year curse at Chepauk as they shone in all departments to defeat Chennai Super Kings in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "14m"
+                                                                },
+                                                                {
+                                                                    "value": "14 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "ff_hangouts",
+                                                                    "value": "Hangouts"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040200&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/csk-vs-rcb-highlights/1540040200/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGrgCCgoxNTQwMDQwMjAwEhZDU0sgdnMgUkNCOiBIaWdobGlnaHRzGhZDU0sgdnMgUkNCOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MIjMrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA21hcmoDaGFyagNiaWhqA3NnbmoDcGFuagtmZl9oYW5nb3V0c2oDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAQqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4AUILCglWaWV3IE1vcmU="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040200&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/csk-vs-rcb-highlights/1540040200/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "CSK vs RCB: Highlights, Clip, 14 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040200"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEaqwIKCjE1NDAwNDAxOTcSFlNSSCB2cyBMU0c6IEhpZ2hsaWdodHMaFlNSSCB2cyBMU0c6IEhpZ2hsaWdodHMiFlNQT1JUX01BVENIX0hJR0hMSUdIVFMqB0NyaWNrZXQwhcys3gU6BFN0YXJqA2hpbmoDZW5nagN0YW1qA21hbGoDYmVuagNrYW5qA3RlbGoDbWFyagNoYXJqA2JpaGoDc2duagNwYW5qA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayAFKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAEyDQoJV2F0Y2ggTm93EAE="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "14m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/7846/1743095317846-h",
+                                                        "alt": "SRH vs LSG: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "SRH vs LSG: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040197&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/srh-vs-lsg-highlights/1540040197/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/233/1743095350233-i",
+                                                            "alt": "SRH vs LSG: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "SRH vs LSG: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/1159/1743097091159-t",
+                                                                "alt": "SRH vs LSG: Highlights"
+                                                            },
+                                                            "description": "Shardul Thakur's 4/34 curbed Sunrisers Hyderabad to 190/9 before Nicholas Pooran and Mitchell Marsh sealed the chase for Lucknow Super Giants in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "14m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040197&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/srh-vs-lsg-highlights/1540040197/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqsCCgoxNTQwMDQwMTk3EhZTUkggdnMgTFNHOiBIaWdobGlnaHRzGhZTUkggdnMgTFNHOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MIXMrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA21hcmoDaGFyagNiaWhqA3NnbmoDcGFuagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgBSpICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBQgsKCVZpZXcgTW9yZQ=="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040197&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/srh-vs-lsg-highlights/1540040197/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "SRH vs LSG: Highlights, Clip, 14 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040197"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEaqQIKCjE1NDAwNDAxOTQSFVJSIHZzIEtLUjogSGlnaGxpZ2h0cxoVUlIgdnMgS0tSOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MILMrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA3NnbmoDcGFuagNtYXJqA2hhcmoDYmloagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgBipICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBMg0KCVdhdGNoIE5vdxAB"
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "12m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/716/1743009340716-h",
+                                                        "alt": "RR vs KKR: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "RR vs KKR: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040194&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/rr-vs-kkr-highlights/1540040194/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/8791/1743060898791-i",
+                                                            "alt": "RR vs KKR: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "RR vs KKR: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/4764/1743010444764-t",
+                                                                "alt": "RR vs KKR: Highlights"
+                                                            },
+                                                            "description": "A clinical bowling effort followed by Quinton de Kock's 97* helped Kolkata Knight Riders beat Rajasthan Royals to seal their first win in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "12m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040194&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/rr-vs-kkr-highlights/1540040194/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqkCCgoxNTQwMDQwMTk0EhVSUiB2cyBLS1I6IEhpZ2hsaWdodHMaFVJSIHZzIEtLUjogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDCCzKzeBToEU3RhcmoDaGluagNlbmdqA3RhbWoDbWFsagNiZW5qA2thbmoDdGVsagNzZ25qA3BhbmoDbWFyagNoYXJqA2JpaGoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAYqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4AUILCglWaWV3IE1vcmU="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040194&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/rr-vs-kkr-highlights/1540040194/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "RR vs KKR: Highlights, Clip, 12 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040194"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEaqwIKCjE1NDAwNDAxOTESFkdUIHZzIFBCS1M6IEhpZ2hsaWdodHMaFkdUIHZzIFBCS1M6IEhpZ2hsaWdodHMiFlNQT1JUX01BVENIX0hJR0hMSUdIVFMqB0NyaWNrZXQw/8us3gU6BFN0YXJqA2hpbmoDZW5nagN0YW1qA21hbGoDYmVuagNrYW5qA3RlbGoDbWFyagNoYXJqA2JpaGoDc2duagNwYW5qA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayAHKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAEyDQoJV2F0Y2ggTm93EAE="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "14m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/1816/1742924041816-h",
+                                                        "alt": "GT vs PBKS: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "GT vs PBKS: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040191&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/gt-vs-pbks-highlights/1540040191/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/381/1742924060381-i",
+                                                            "alt": "GT vs PBKS: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "GT vs PBKS: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/293/1742925050293-t",
+                                                                "alt": "GT vs PBKS: Highlights"
+                                                            },
+                                                            "description": "Captain Shreyas Iyer shone on his Punjab Kings debut as they secured an 11-run win over Gujarat Titans in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "14m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040191&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/gt-vs-pbks-highlights/1540040191/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqsCCgoxNTQwMDQwMTkxEhZHVCB2cyBQQktTOiBIaWdobGlnaHRzGhZHVCB2cyBQQktTOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MP/LrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA21hcmoDaGFyagNiaWhqA3NnbmoDcGFuagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgBypICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBQgsKCVZpZXcgTW9yZQ=="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040191&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/gt-vs-pbks-highlights/1540040191/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "GT vs PBKS: Highlights, Clip, 14 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040191"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEaqQIKCjE1NDAwNDAxODgSFURDIHZzIExTRzogSGlnaGxpZ2h0cxoVREMgdnMgTFNHOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MPzLrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA3NnbmoDcGFuagNtYXJqA2hhcmoDYmloagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgCCpICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBMg0KCVdhdGNoIE5vdxAB"
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "16m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/3633/1742838043633-h",
+                                                        "alt": "DC vs LSG: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "DC vs LSG: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040188&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/dc-vs-lsg-highlights/1540040188/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/3625/1742838153625-i",
+                                                            "alt": "DC vs LSG: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "DC vs LSG: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/122/1742887170122-t",
+                                                                "alt": "DC vs LSG: Highlights"
+                                                            },
+                                                            "description": "Delhi Capitals pipped Lucknow Super Giants in a dramatic last-over thriller to win by one wicket in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "16m"
+                                                                },
+                                                                {
+                                                                    "value": "13 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040188&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/dc-vs-lsg-highlights/1540040188/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGqkCCgoxNTQwMDQwMTg4EhVEQyB2cyBMU0c6IEhpZ2hsaWdodHMaFURDIHZzIExTRzogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDD8y6zeBToEU3RhcmoDaGluagNlbmdqA3RhbWoDbWFsagNiZW5qA2thbmoDdGVsagNzZ25qA3BhbmoDbWFyagNoYXJqA2JpaGoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAgqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4AUILCglWaWV3IE1vcmU="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040188&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/dc-vs-lsg-highlights/1540040188/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "DC vs LSG: Highlights, Clip, 16 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040188"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEatgIKCjE1NDAwNDAxODUSFUNTSyB2cyBNSTogSGlnaGxpZ2h0cxoVQ1NLIHZzIE1JOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MPnLrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA21hcmoDaGFyagNiaWhqA3NnbmoDcGFuagtmZl9oYW5nb3V0c2oDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAkqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4ATINCglXYXRjaCBOb3cQAQ=="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "13m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/6810/1742751646810-h",
+                                                        "alt": "CSK vs MI: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "CSK vs MI: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040185&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/csk-vs-mi-highlights/1540040185/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/3245/1742751693245-i",
+                                                            "alt": "CSK vs MI: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "CSK vs MI: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/2822/1742888862822-t",
+                                                                "alt": "CSK vs MI: Highlights"
+                                                            },
+                                                            "description": "Chennai Super Kings began their TATA IPL 2025 campaign on a high with a comprehensive victory over their arch-rivals Mumbai Indians",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "13m"
+                                                                },
+                                                                {
+                                                                    "value": "14 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "ff_hangouts",
+                                                                    "value": "Hangouts"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040185&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/csk-vs-mi-highlights/1540040185/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGrYCCgoxNTQwMDQwMTg1EhVDU0sgdnMgTUk6IEhpZ2hsaWdodHMaFUNTSyB2cyBNSTogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDD5y6zeBToEU3RhcmoDaGluagNlbmdqA3RhbWoDbWFsagNiZW5qA2thbmoDdGVsagNtYXJqA2hhcmoDYmloagNzZ25qA3BhbmoLZmZfaGFuZ291dHNqA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayAJKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAFCCwoJVmlldyBNb3Jl"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040185&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/csk-vs-mi-highlights/1540040185/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "CSK vs MI: Highlights, Clip, 13 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040185"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEauwIKCjE1NDAwNDAxODISFVNSSCB2cyBSUjogSGlnaGxpZ2h0cxoVU1JIIHZzIFJSOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MPbLrN4FOgRTdGFyagNoaW5qA2VuZ2oDdGFtagNtYWxqA2JlbmoDa2FuagN0ZWxqA21hcmoDaGFyagNmdW5qA3NnbmoDcGFuagtmZl9oYW5nb3V0c2oDYmloagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgCipICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBMg0KCVdhdGNoIE5vdxAB"
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "15m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/195/1742738390195-h",
+                                                        "alt": "SRH vs RR: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "SRH vs RR: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040182&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/srh-vs-rr-highlights/1540040182/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/3479/1742736403479-i",
+                                                            "alt": "SRH vs RR: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "SRH vs RR: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/9851/1742824589851-t",
+                                                                "alt": "SRH vs RR: Highlights"
+                                                            },
+                                                            "description": "Ishan Kishan's ton powered Sunrisers Hyderabad to a 44-run win over Rajasthan Royals in TATA IPL 2025",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "15m"
+                                                                },
+                                                                {
+                                                                    "value": "15 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "fun",
+                                                                    "value": "Funday"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "ff_hangouts",
+                                                                    "value": "Hangouts"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040182&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/srh-vs-rr-highlights/1540040182/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGrsCCgoxNTQwMDQwMTgyEhVTUkggdnMgUlI6IEhpZ2hsaWdodHMaFVNSSCB2cyBSUjogSGlnaGxpZ2h0cyIWU1BPUlRfTUFUQ0hfSElHSExJR0hUUyoHQ3JpY2tldDD2y6zeBToEU3RhcmoDaGluagNlbmdqA3RhbWoDbWFsagNiZW5qA2thbmoDdGVsagNtYXJqA2hhcmoDZnVuagNzZ25qA3BhbmoLZmZfaGFuZ291dHNqA2JpaGoDZ3VqkgJ+aW1hZ2VfdmFyaWFudD1ERUZBVUxULGFydHdvcmtfbG9naWM9ZGVmYXVsdCx0aGVtZT1ERUZBVUxULHNjcmlwdF9sYW5ndWFnZT11bmtub3duLGNhbGxvdXRfbGFuZ3VhZ2VzPXVua25vd24sc2NyaXB0VHlwZT1hcnR3b3JrIAoqSAoKMTI3MTQwMTg3NBIZVEFUQSBJUEwgMjAyNTogSGlnaGxpZ2h0cxoLTGlzdGluZ0dyaWQgAioJZWRpdG9yaWFsMgNlbmc4AUILCglWaWV3IE1vcmU="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040182&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/srh-vs-rr-highlights/1540040182/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "SRH vs RR: Highlights, Clip, 15 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040182"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "horizontal_content_card": {
+                                                "template": {
+                                                    "name": "HorizontalContentCardWidget",
+                                                    "version": "1"
+                                                },
+                                                "widget_commons": {
+                                                    "version": "1",
+                                                    "instrumentation": {
+                                                        "override_referrer": true,
+                                                        "impression_events": [
+                                                            {
+                                                                "event_name": "Content Viewed"
+                                                            }
+                                                        ],
+                                                        "instrumentation_context_v2": {
+                                                            "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                            "value": "CkgSHUhvcml6b250YWxDb250ZW50UG9zdGVyV2lkZ2V0GiRDb250ZW50R3JpZFdpZGdldEluc3RhbmNlL0dyaWRXaWRnZXQiATEavQIKCjE1NDAwNDAxNzkSFktLUiB2cyBSQ0I6IEhpZ2hsaWdodHMaFktLUiB2cyBSQ0I6IEhpZ2hsaWdodHMiFlNQT1JUX01BVENIX0hJR0hMSUdIVFMqB0NyaWNrZXQw88us3gU6BFN0YXJqA2hpbmoDZW5nagNrYW5qA2Z1bmoDc2duagN0YW1qA2JlbmoDcGFuagNtYWxqC2ZmX2hhbmdvdXRzagNoYXJqA21hcmoDYmloagN0ZWxqA2d1apICfmltYWdlX3ZhcmlhbnQ9REVGQVVMVCxhcnR3b3JrX2xvZ2ljPWRlZmF1bHQsdGhlbWU9REVGQVVMVCxzY3JpcHRfbGFuZ3VhZ2U9dW5rbm93bixjYWxsb3V0X2xhbmd1YWdlcz11bmtub3duLHNjcmlwdFR5cGU9YXJ0d29yayALKkgKCjEyNzE0MDE4NzQSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaC0xpc3RpbmdHcmlkIAIqCWVkaXRvcmlhbDIDZW5nOAEyDQoJV2F0Y2ggTm93EAE="
+                                                        }
+                                                    },
+                                                    "name": "HorizontalContentCardWidget"
+                                                },
+                                                "data": {
+                                                    "duration": "13m",
+                                                    "image": {
+                                                        "src": "sources/r1/cms/prod/5846/1742663885846-h",
+                                                        "alt": "KKR vs RCB: Highlights"
+                                                    },
+                                                    "footer": {
+                                                        "title": "KKR vs RCB: Highlights"
+                                                    },
+                                                    "actions": {
+                                                        "on_click": [
+                                                            {
+                                                                "hs_track": {
+                                                                    "name": "Content Clicked"
+                                                                }
+                                                            },
+                                                            {
+                                                                "page_navigation": {
+                                                                    "page_type": "WatchPage",
+                                                                    "page_url": "/v2/pages/watch?content_id=1540040179&filters=content_type%3Dsport_match_highlights",
+                                                                    "page_slug": "/in/sports/cricket/kkr-vs-rcb-highlights/1540040179/video/highlights/watch"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "expanded_content_poster": {
+                                                        "image": {
+                                                            "src": "sources/r1/cms/prod/9321/1742663189321-i",
+                                                            "alt": "KKR vs RCB: Highlights"
+                                                        },
+                                                        "content_info": {
+                                                            "title": "KKR vs RCB: Highlights",
+                                                            "title_cutout": {
+                                                                "src": "sources/r1/cms/prod/2363/1742664722363-t",
+                                                                "alt": "KKR vs RCB: Highlights"
+                                                            },
+                                                            "description": "Virat Kohli and Phil Salt's fifties powered Royal Challengers Bengaluru to a seven-wicket win over Kolkata Knight Riders in the TATA IPL 2025 opener",
+                                                            "tags": [
+                                                                {
+                                                                    "value": "13m"
+                                                                },
+                                                                {
+                                                                    "value": "15 Languages"
+                                                                },
+                                                                {
+                                                                    "value": "Cricket"
+                                                                }
+                                                            ],
+                                                            "languages": [
+                                                                {
+                                                                    "key": "hin",
+                                                                    "value": "Hindi"
+                                                                },
+                                                                {
+                                                                    "key": "eng",
+                                                                    "value": "English"
+                                                                },
+                                                                {
+                                                                    "key": "kan",
+                                                                    "value": "Kannada"
+                                                                },
+                                                                {
+                                                                    "key": "fun",
+                                                                    "value": "Funday"
+                                                                },
+                                                                {
+                                                                    "key": "sgn",
+                                                                    "value": "SignLanguage"
+                                                                },
+                                                                {
+                                                                    "key": "tam",
+                                                                    "value": "Tamil"
+                                                                },
+                                                                {
+                                                                    "key": "ben",
+                                                                    "value": "Bengali"
+                                                                },
+                                                                {
+                                                                    "key": "pan",
+                                                                    "value": "Punjabi"
+                                                                },
+                                                                {
+                                                                    "key": "mal",
+                                                                    "value": "Malayalam"
+                                                                },
+                                                                {
+                                                                    "key": "ff_hangouts",
+                                                                    "value": "Hangouts"
+                                                                },
+                                                                {
+                                                                    "key": "har",
+                                                                    "value": "Haryanvi"
+                                                                },
+                                                                {
+                                                                    "key": "mar",
+                                                                    "value": "Marathi"
+                                                                },
+                                                                {
+                                                                    "key": "bih",
+                                                                    "value": "Bhojpuri"
+                                                                },
+                                                                {
+                                                                    "key": "tel",
+                                                                    "value": "Telugu"
+                                                                },
+                                                                {
+                                                                    "key": "guj",
+                                                                    "value": "Gujarati"
+                                                                }
+                                                            ],
+                                                            "primary_cta": {
+                                                                "icon_name": "icon-play-fill",
+                                                                "label": "Watch Now",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040179&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/kkr-vs-rcb-highlights/1540040179/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "see_more_cta": {
+                                                                "icon_name": "icon-caret-down",
+                                                                "label": "View More",
+                                                                "actions": {
+                                                                    "on_click": [
+                                                                        {
+                                                                            "hs_track": {
+                                                                                "name": "Content Clicked",
+                                                                                "override_context": {
+                                                                                    "url": "type.googleapis.com/server.context.widget.ContentTrayContext",
+                                                                                    "value": "CkYSG0hvcml6b250YWxDb250ZW50Q2FyZFdpZGdldBokQ29udGVudEdyaWRXaWRnZXRJbnN0YW5jZS9HcmlkV2lkZ2V0IgExGr0CCgoxNTQwMDQwMTc5EhZLS1IgdnMgUkNCOiBIaWdobGlnaHRzGhZLS1IgdnMgUkNCOiBIaWdobGlnaHRzIhZTUE9SVF9NQVRDSF9ISUdITElHSFRTKgdDcmlja2V0MPPLrN4FOgRTdGFyagNoaW5qA2VuZ2oDa2FuagNmdW5qA3NnbmoDdGFtagNiZW5qA3BhbmoDbWFsagtmZl9oYW5nb3V0c2oDaGFyagNtYXJqA2JpaGoDdGVsagNndWqSAn5pbWFnZV92YXJpYW50PURFRkFVTFQsYXJ0d29ya19sb2dpYz1kZWZhdWx0LHRoZW1lPURFRkFVTFQsc2NyaXB0X2xhbmd1YWdlPXVua25vd24sY2FsbG91dF9sYW5ndWFnZXM9dW5rbm93bixzY3JpcHRUeXBlPWFydHdvcmsgCypICgoxMjcxNDAxODc0EhlUQVRBIElQTCAyMDI1OiBIaWdobGlnaHRzGgtMaXN0aW5nR3JpZCACKgllZGl0b3JpYWwyA2VuZzgBQgsKCVZpZXcgTW9yZQ=="
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "page_navigation": {
+                                                                                "page_type": "WatchPage",
+                                                                                "page_url": "/v2/pages/watch?content_id=1540040179&filters=content_type%3Dsport_match_highlights",
+                                                                                "page_slug": "/in/sports/cricket/kkr-vs-rcb-highlights/1540040179/video/highlights/watch"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    },
+                                                    "alt": {
+                                                        "label": "KKR vs RCB: Highlights, Clip, 13 minutes"
+                                                    },
+                                                    "play": {
+                                                        "icon": "icon-play-fill"
+                                                    },
+                                                    "content_id": "1540040179"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "id": "54233",
+                            "defer_id": "54233",
+                            "unique_identifier": "1446"
+                        }
+                    ]
+                },
+                "footer": {
+                    "id": "footer",
+                    "template": "FooterSpace"
+                },
+                "header": {
+                    "id": "header",
+                    "template": "HeaderSpace",
+                    "widget_wrappers": [
+                        {
+                            "template": "PageTitleHeaderWidget",
+                            "widget": {
+                                "@type": "type.googleapis.com/widget.PageTitleHeaderWidget",
+                                "widget_commons": {
+                                    "id": "PageTitleHeaderWidget",
+                                    "version": "1"
+                                },
+                                "data": {
+                                    "title": "TATA IPL 2025: Highlights"
+                                }
+                            },
+                            "id": "54230",
+                            "defer_id": "54230",
+                            "unique_identifier": "1447"
+                        }
+                    ]
+                },
+                "logo": {
+                    "id": "logo",
+                    "template": "LogoSpace"
+                },
+                "seo": {
+                    "id": "seo",
+                    "template": "SEOSpace"
+                }
+            },
+            "data": {
+                "@type": "type.googleapis.com/pagedata.TrayDetailsPageData",
+                "page_data_commons": {
+                    "instrumentation": {
+                        "impression_events": [
+                            {
+                                "event_name": "Viewed Listing Page"
+                            }
+                        ],
+                        "instrumentation_context_v2": {
+                            "url": "type.googleapis.com/server.context.page.ListingPage",
+                            "value": "ClYKB2xpc3RpbmcSGVRBVEEgSVBMIDIwMjU6IEhpZ2hsaWdodHMaCS92Mi9zdGFydCAJKg9UcmF5RGV0YWlsc1BhZ2UyATE6D1RyYXlEZXRhaWxzUGFnZQ=="
+                        }
+                    },
+                    "url": "/in/browse/editorial/tata-ipl-2025-highlights/1271401874",
+                    "invalidate_on": [
+                        "TOKEN_CHANGED"
+                    ]
+                }
+            }
+        },
+        "is_deeplink_resolved": true
+    }
+}
