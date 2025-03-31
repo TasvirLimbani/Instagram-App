@@ -1,0 +1,1655 @@
+{
+  "data": [
+            {
+                "_id": "67e96a36545b783cc5260932",
+                "id": 59579,
+                "ID": 59579,
+                "title": "IPL 2025 M11: RR vs CSK - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 749,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743350326,
+                "updated_date": 1743350326,
+                "publishFrom": 1743350070000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 353301,
+                "views": 353301,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/fb9bc77a-1648-4897-bfa8-9196063ad2e7/a82fab98-c880-4903-bd95-d2769b5a6562/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m11-rr-vs-csk---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1809,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 8,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 1,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370793999112-1743360075.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/fb9bc77a-1648-4897-bfa8-9196063ad2e7/a82fab98-c880-4903-bd95-d2769b5a6562/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1809"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "rr"
+                    },
+                    {
+                        "id": 6,
+                        "label": "csk"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#8"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#1"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-11"
+                    },
+                    {
+                        "id": 12,
+                        "label": "guwahati"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-30T15:54:30.422Z",
+                "mediaId": "6370793999112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "yJmS5bS0",
+                "updated_at": "2025-03-31T04:59:24.122Z",
+                "created_at": "2025-03-30T15:58:46.170Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e930dadc9b845c7a04a092",
+                "id": 59506,
+                "ID": 59506,
+                "title": "IPL 2025 M10: DC vs SRH - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 645,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743335642,
+                "updated_date": 1743335642,
+                "publishFrom": 1743335297000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 250897,
+                "views": 250897,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/0d3e76c7-15f0-4b37-8386-28877dd31271/d095981b-6caf-44f2-b889-8c1b3baf7e3b/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m10-dc-vs-srh---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1808,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 3,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 62,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370788527112-1743342531.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/0d3e76c7-15f0-4b37-8386-28877dd31271/d095981b-6caf-44f2-b889-8c1b3baf7e3b/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1808"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "dc"
+                    },
+                    {
+                        "id": 6,
+                        "label": "srh"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#3"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#62"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-10"
+                    },
+                    {
+                        "id": 12,
+                        "label": "visakhapatnam"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-30T11:48:17.196Z",
+                "mediaId": "6370788527112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "8HQZSEC2",
+                "updated_at": "2025-03-31T02:13:14.772Z",
+                "created_at": "2025-03-30T11:54:02.665Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e81b8e174e2a06fb5d24e2",
+                "id": 59437,
+                "ID": 59437,
+                "title": "IPL 2025 M09: GT vs MI - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 697,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743264654,
+                "updated_date": 1743352023,
+                "publishFrom": 1743244560000,
+                "publish_by": "brightcove",
+                "meta_languages": null,
+                "language": "en",
+                "asset_type": "video",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 471720,
+                "views": 471720,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/29a02d79-cac1-48d5-ab02-7b3957a28f50/57189c99-de03-49da-a611-de1eb435863c/1280x720/match/image.jpg",
+                "video_status": true,
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m09-gt-vs-mi---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": null,
+                "references": [
+                    {
+                        "id": 1807,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 898,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 6,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370750965112-1743352133.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/29a02d79-cac1-48d5-ab02-7b3957a28f50/57189c99-de03-49da-a611-de1eb435863c/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1807"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "gt"
+                    },
+                    {
+                        "id": 6,
+                        "label": "mi"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#898"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#6"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-9"
+                    },
+                    {
+                        "id": 12,
+                        "label": "ahmedabad"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-29T10:36:00Z",
+                "mediaId": "6370750965112",
+                "from_date": "2025-03-29 16:06:04",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "0IqvLOgK",
+                "updated_at": "2025-03-31T05:00:07.466Z",
+                "created_at": "2025-03-29T16:10:54.222Z",
+                "timestamps": false,
+                "published_by": null
+            },
+            {
+                "_id": "67e6c627324e5039e21e8b63",
+                "id": 59365,
+                "ID": 59365,
+                "title": "IPL 2025 M08: CSK vs RCB - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 714,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743177255,
+                "updated_date": 1743177255,
+                "publishFrom": 1743176950000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 822994,
+                "views": 822994,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/dff39a18-3dc9-4bdb-bd52-14d9bf390407/e0fad330-5b4c-4ddc-9309-b20ebaef2500/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m08-csk-vs-rcb---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1806,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 1,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 9,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370692874112-1743185931.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/dff39a18-3dc9-4bdb-bd52-14d9bf390407/e0fad330-5b4c-4ddc-9309-b20ebaef2500/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1806"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "csk"
+                    },
+                    {
+                        "id": 6,
+                        "label": "rcb"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#1"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#9"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-8"
+                    },
+                    {
+                        "id": 12,
+                        "label": "chennai"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-28T15:49:10.034Z",
+                "mediaId": "6370692874112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "6ZNHv1Fk",
+                "updated_at": "2025-03-31T02:17:38.943Z",
+                "created_at": "2025-03-28T15:54:15.773Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e57de390a3d218cc00f284",
+                "id": 59293,
+                "ID": 59293,
+                "title": "IPL 2025 M07: SRH vs LSG - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 720,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743093219,
+                "updated_date": 1743093219,
+                "publishFrom": 1743092767000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 513536,
+                "views": 513536,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/aac93ee2-2675-4f46-a625-28e0264ade3a/e6dab178-0a6b-46c8-add6-f4a35c89b77f/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m07-srh-vs-lsg---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1805,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 62,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 897,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370640865112-1743098639.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/aac93ee2-2675-4f46-a625-28e0264ade3a/e6dab178-0a6b-46c8-add6-f4a35c89b77f/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1805"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "srh"
+                    },
+                    {
+                        "id": 6,
+                        "label": "lsg"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#62"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#897"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-7"
+                    },
+                    {
+                        "id": 12,
+                        "label": "hyderabad"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-27T16:26:07.917Z",
+                "mediaId": "6370640865112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "UCuw6mVF",
+                "updated_at": "2025-03-31T02:19:55.082Z",
+                "created_at": "2025-03-27T16:33:39.114Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e42430ac02960f1c7d3204",
+                "id": 59213,
+                "ID": 59213,
+                "title": "IPL 2025 M06: RR vs KKR - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 554,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1743004720,
+                "updated_date": 1743004720,
+                "publishFrom": 1743004274000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 450602,
+                "views": 450602,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/0a2239ed-4ccf-4766-b039-792469a8bbd4/8bc09f53-88ad-4151-b449-2e51d916721b/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m06-rr-vs-kkr---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1804,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 8,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 5,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370585376112-1743011938.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/0a2239ed-4ccf-4766-b039-792469a8bbd4/8bc09f53-88ad-4151-b449-2e51d916721b/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1804"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "rr"
+                    },
+                    {
+                        "id": 6,
+                        "label": "kkr"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#8"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#5"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-6"
+                    },
+                    {
+                        "id": 12,
+                        "label": "guwahati"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-26T15:51:14.877Z",
+                "mediaId": "6370585376112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "QLLlL9no",
+                "updated_at": "2025-03-31T02:22:25.644Z",
+                "created_at": "2025-03-26T15:58:40.484Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e2d2ade3075e26fd420303",
+                "id": 59134,
+                "ID": 59134,
+                "title": "IPL 2025 M05: GT vs PBKS - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 812,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1742918317,
+                "updated_date": 1742918317,
+                "publishFrom": 1742917780000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 626879,
+                "views": 626879,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/a552d524-355c-4bfc-99ab-63f8d1e3faae/372eea2f-90cd-4f89-82d7-8c177a43d0a0/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m05-gt-vs-pbks---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1803,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 898,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 4,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370526068112-1742929128.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/a552d524-355c-4bfc-99ab-63f8d1e3faae/372eea2f-90cd-4f89-82d7-8c177a43d0a0/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1803"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "gt"
+                    },
+                    {
+                        "id": 6,
+                        "label": "pbks"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#898"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#4"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-5"
+                    },
+                    {
+                        "id": 12,
+                        "label": "ahmedabad"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-25T15:49:40.037Z",
+                "mediaId": "6370526068112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "Y7RXWfAs",
+                "updated_at": "2025-03-31T02:24:52.427Z",
+                "created_at": "2025-03-25T15:58:37.502Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e183fed9bc2e7f3a428982",
+                "id": 59037,
+                "ID": 59037,
+                "title": "IPL 2025 M04: DC vs LSG - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 908,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1742832638,
+                "updated_date": 1742832638,
+                "publishFrom": 1742831918000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 995685,
+                "views": 995685,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/6bd615e3-882f-467d-b569-ab5321a810db/221d5d0b-3609-4ed4-88c6-15861ba4949a/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m04-dc-vs-lsg---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1802,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 3,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 897,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370472286112-1742843918.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/6bd615e3-882f-467d-b569-ab5321a810db/221d5d0b-3609-4ed4-88c6-15861ba4949a/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1802"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "dc"
+                    },
+                    {
+                        "id": 6,
+                        "label": "lsg"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#3"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#897"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-4"
+                    },
+                    {
+                        "id": 12,
+                        "label": "visakhapatnam"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-24T15:58:38.176Z",
+                "mediaId": "6370472286112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "3RwgKroY",
+                "updated_at": "2025-03-31T02:27:58.215Z",
+                "created_at": "2025-03-24T16:10:38.233Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67e030d653c74c67ff6059b3",
+                "id": 58946,
+                "ID": 58946,
+                "title": "IPL 2025 M03: CSK vs MI - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 648,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1742745814,
+                "updated_date": 1742745814,
+                "publishFrom": 1742745270000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 925542,
+                "views": 925542,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/3891f3ed-fb46-4965-86b9-c8dc38679c1b/9e5d7053-f16b-45c8-8fa7-10255094b480/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m03-csk-vs-mi---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1801,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 1,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 6,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370426109112-1742753023.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/3891f3ed-fb46-4965-86b9-c8dc38679c1b/9e5d7053-f16b-45c8-8fa7-10255094b480/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1801"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "csk"
+                    },
+                    {
+                        "id": 6,
+                        "label": "mi"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#1"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#6"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-3"
+                    },
+                    {
+                        "id": 12,
+                        "label": "chennai"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-23T15:54:30.846Z",
+                "mediaId": "6370426109112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "2CGbHx0K",
+                "updated_at": "2025-03-31T02:30:51.346Z",
+                "created_at": "2025-03-23T16:03:34.193Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67dffe74cd4bf8333520e953",
+                "id": 58864,
+                "ID": 58864,
+                "title": "IPL 2025 M02: SRH vs RR - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 905,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1742732916,
+                "updated_date": 1742732916,
+                "publishFrom": 1742731616000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 748513,
+                "views": 748513,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/987261bd-284f-4ec1-afbc-b1e689ef1a36/5c7cb2f4-35ac-431f-960a-d362d66bceb8/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m02-srh-vs-rr---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1800,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 62,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 8,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370422303112-1742740137.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/987261bd-284f-4ec1-afbc-b1e689ef1a36/5c7cb2f4-35ac-431f-960a-d362d66bceb8/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1800"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "srh"
+                    },
+                    {
+                        "id": 6,
+                        "label": "rr"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#62"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#8"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-2"
+                    },
+                    {
+                        "id": 12,
+                        "label": "hyderabad"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-23T12:06:56.255Z",
+                "mediaId": "6370422303112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "iCJRe5UM",
+                "updated_at": "2025-03-31T02:33:25.010Z",
+                "created_at": "2025-03-23T12:28:36.160Z",
+                "timestamps": false
+            },
+            {
+                "_id": "67dede32d6bf3663f425f443",
+                "id": 58794,
+                "ID": 58794,
+                "title": "IPL 2025 M01: KKR vs RCB - Match Highlights",
+                "short_description": "",
+                "description": "",
+                "duration": 695,
+                "match_id": 0,
+                "content_type": "video",
+                "type": "video",
+                "video_scope": "",
+                "video_url": null,
+                "match_formats": null,
+                "keywords": null,
+                "created_date": 1742659122,
+                "updated_date": 1742659122,
+                "publishFrom": 1742658684000,
+                "publish_by": "brightcove",
+                "meta_languages": [],
+                "language": "en",
+                "asset_type": "",
+                "publishTo": 0,
+                "total_viewcount": 0,
+                "slug": null,
+                "varients": [],
+                "views_count": 1035824,
+                "views": 1035824,
+                "comments": false,
+                "current_status": "published",
+                "lastModified": 0,
+                "thumbnail_image": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/bfce3a32-b17a-4aa7-bdf3-eb1c672f6ea7/862925aa-8f8c-4b80-9d02-3b9f90d30a40/1280x720/match/image.jpg",
+                "video_status": "completed",
+                "location": "",
+                "titleUrlSegment": "ipl-2025-m01-kkr-vs-rcb---match-highlights",
+                "subtitle": null,
+                "titleTranslations": null,
+                "coordinates": [],
+                "references": [
+                    {
+                        "id": 1799,
+                        "type": "CRICKET_MATCH"
+                    },
+                    {
+                        "id": 203,
+                        "type": "CRICKET_TOURNAMENT"
+                    },
+                    {
+                        "id": 5,
+                        "type": "CRICKET_TEAM"
+                    },
+                    {
+                        "id": 9,
+                        "type": "CRICKET_TEAM"
+                    }
+                ],
+                "closedCaptioned": false,
+                "accountId": 3588749423001,
+                "imageUrl": "https://brightcove.iplt20.com/output/input/6370384826112-1742666031.jpg",
+                "imageBackup": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/bfce3a32-b17a-4aa7-bdf3-eb1c672f6ea7/862925aa-8f8c-4b80-9d02-3b9f90d30a40/1280x720/match/image.jpg",
+                "tags": [
+                    {
+                        "id": 0,
+                        "label": "2025"
+                    },
+                    {
+                        "id": 1,
+                        "label": "iplt20"
+                    },
+                    {
+                        "id": 2,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 3,
+                        "label": "#1799"
+                    },
+                    {
+                        "id": 4,
+                        "label": "#203"
+                    },
+                    {
+                        "id": 5,
+                        "label": "kkr"
+                    },
+                    {
+                        "id": 6,
+                        "label": "rcb"
+                    },
+                    {
+                        "id": 7,
+                        "label": "#5"
+                    },
+                    {
+                        "id": 8,
+                        "label": "#9"
+                    },
+                    {
+                        "id": 9,
+                        "label": "ipl-2025"
+                    },
+                    {
+                        "id": 10,
+                        "label": "ipl2025"
+                    },
+                    {
+                        "id": 11,
+                        "label": "ipl2025-1"
+                    },
+                    {
+                        "id": 12,
+                        "label": "kolkata"
+                    },
+                    {
+                        "id": 13,
+                        "label": "home"
+                    },
+                    {
+                        "id": 14,
+                        "label": "latest"
+                    },
+                    {
+                        "id": 15,
+                        "label": "highlights"
+                    }
+                ],
+                "additionalInfo": null,
+                "import_source": "",
+                "copyright": null,
+                "hotlinkUrl": null,
+                "related": [],
+                "latitude": "",
+                "longitude": "",
+                "geo_blocking": [],
+                "platform": [
+                    "ipl"
+                ],
+                "date": "2025-03-22T15:51:24.307Z",
+                "mediaId": "6370384826112",
+                "from_date": "",
+                "to_date": 0,
+                "leadMedia": null,
+                "variants": [],
+                "status": true,
+                "from": "iplstorecron",
+                "short_code": "W0AkMXnu",
+                "updated_at": "2025-03-31T02:35:33.865Z",
+                "created_at": "2025-03-22T15:58:42.977Z",
+                "timestamps": false
+            }
+        ]
+}
